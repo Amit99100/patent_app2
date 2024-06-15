@@ -18,15 +18,19 @@
   justify-content: space-between;
   margin-top: 50px; /* Increased margin-top for better spacing */
   gap: 20px; /* Added gap for better spacing between columns */
+  flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
 }
 
 .connect .column {
-  width: 30%;
+  flex: 1; /* Allows columns to grow and shrink */
+  min-width: 280px; /* Ensures columns don't get too narrow on smaller screens */
+  max-width: 30%; /* Limits maximum width to 30% of the parent container */
   text-align: left;
   background: #fff; /* Added background for better contrast */
   padding: 20px; /* Added padding for better spacing */
   border-radius: 10px; /* Added border-radius for rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle box-shadow */
+  margin-bottom: 20px; /* Added margin-bottom to separate rows */
 }
 
 .connect .column h3 {
@@ -83,4 +87,67 @@
   max-width: 1200px; /* Constrain width for better layout */
   margin: 0 auto; /* Center the container */
   padding: 0 20px; /* Padding for responsiveness */
+}
+
+/* Media Queries for Mobile Responsiveness */
+
+/* For tablets and small desktops (up to 1024px) */
+@media (max-width: 1024px) {
+  .connect .columns {
+    flex-direction: column; /* Stack columns vertically */
+    align-items: center; /* Center align the columns */
+  }
+
+  .connect .column {
+    max-width: 80%; /* Limit width to 80% of the parent container */
+    margin-bottom: 30px; /* Increase margin for better spacing */
+  }
+
+  .get-started-btn {
+    padding: 12px 24px; /* Slightly smaller padding for buttons */
+    font-size: 16px; /* Slightly smaller font size */
+  }
+}
+
+/* For large mobile phones (up to 768px) */
+@media (max-width: 768px) {
+  .connect .curly-font {
+    font-size: 36px; /* Decrease font size for better fit */
+  }
+
+  .connect .column {
+    max-width: 90%; /* Limit width to 90% of the parent container */
+  }
+
+  .get-started-btn {
+    padding: 10px 20px; /* Smaller padding for buttons */
+    font-size: 14px; /* Smaller font size */
+  }
+}
+
+/* For small mobile phones (up to 480px) */
+@media (max-width: 480px) {
+  .connect .curly-font {
+    font-size: 30px; /* Further decrease font size */
+  }
+
+  .connect .column {
+    max-width: 95%; /* Limit width to 95% of the parent container */
+    padding: 15px; /* Reduce padding */
+  }
+
+  .connect .column h3 {
+    font-size: 20px; /* Reduce heading font size */
+  }
+
+  .connect .column ul li {
+    font-size: 16px; /* Reduce list item font size */
+    margin-bottom: 10px; /* Reduce margin between list items */
+  }
+
+  .get-started-btn {
+    padding: 8px 16px; /* Smaller padding for buttons */
+    font-size: 12px; /* Smaller font size */
+    margin-top: 30px; /* Reduce margin-top */
+  }
 }
