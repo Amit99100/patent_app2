@@ -20,9 +20,31 @@
 </head>
 
 <body>
+    <!-- <header>
+        <div class="container">
+            <a href="#" class="logo">ElectroGati</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Connect</a></li>
+                    <li><a href="#">Innovate</a></li>
+                    <li><a href="#">Protect</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#" class="Signup-button">Register</a></li>
+                    <li><a href="#" class="Signup-button">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> -->
     <header>
         <div class="container">
             <a href="#" class="logo">ElectroGati</a>
+            <!-- Hamburger icon -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -333,6 +355,13 @@
             }
         });
     </script>
+    <script>
+        // Toggle the navigation menu on hamburger click
+        document.querySelector('.hamburger').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
+
 </body>
 
 </html>
