@@ -1,0 +1,56 @@
+.protect {
+    background: #F7F7F7;
+    padding: 75px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.protect h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #404145;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider .service {
+    min-width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.slider .service img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slider .service p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #404145;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.slider-btn.left {
+    left: 10px;
+}
+
+.slider-btn.right {
+    right: 10px;
+}

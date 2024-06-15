@@ -1,0 +1,217 @@
+.popular {
+  background: #f7f7f7;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.popular h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #404145;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7a7d85;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li {
+  margin: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #404145;
+}
+
+header nav ul li .btn {
+  background: #1dbf73;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero {
+  background: url("temp.png") no-repeat center center/cover;
+  padding: 100px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #404145;
+}
+
+.hero input {
+  width: 60%;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.hero .popular-services a {
+  display: inline-block;
+  margin: 10px 10px;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.popular {
+  background: #f7f7f7;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.popular h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #404145;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-content {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider .service {
+  min-width: 20%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.slider .service img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.slider .service p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #404145;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slider-btn.left {
+  left: 10px;
+}
+
+.slider-btn.right {
+  right: 10px;
+}
+
+.benefits {
+  padding: 50px 0;
+  text-align: center;
+  background: #fff;
+}
+
+.benefits .benefit {
+  margin-bottom: 40px;
+}
+
+.benefits .benefit h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #404145;
+}
+
+.benefits .benefit p {
+  font-size: 16px;
+  color: #7a7d85;
+}
+
+footer {
+  background: #404145;
+  color: #fff;
+  padding: 50px 0;
+}
+
+footer .footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .link-group {
+  width: 20%;
+}
+
+footer .link-group h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+footer .link-group ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .link-group ul li {
+  margin-bottom: 10px;
+}
+
+footer .link-group ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer .link-group ul li a:hover {
+  text-decoration: underline;
+}

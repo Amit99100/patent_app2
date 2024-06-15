@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroGati</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="connect.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="intro.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="protect.css">
+    <link rel="stylesheet" href="forms.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">ElectroGati</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Connect</a></li>
+                    <li><a href="#">Innovate</a></li>
+                    <li><a href="#">Protect</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#" class="Signup-button">Register</a></li>
+                    <li><a href="#" class="Signup-button">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- <section class="triangle-section">
+
+        <img style="width: 100%;" src="my-main-logo2.svg" alt="Service 1">
+
+    </section> -->
+
+    <!-- <section class="triangle-section">
+
+        <div>
+
+
+            <div>
+                <img style="width: 50vw;" src="my-main-logo2.svg" alt="Service 1">
+            </div>
+        </div>
+        <div>
+
+            
+
+    </section> -->
+
+    <div id="quoteContainer">
+        <div id="imageContainer">
+            <img src="my-main-logo2.svg" alt="Descriptive Text">
+        </div>
+        <div id="quoteForm">
+            <h3 class="form_heading">Get Started</h3>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="details">Details</label>
+                <textarea id="details" name="details"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <h1 style="color: #1DBF73; font-size: 28px; text-align: center; margin-top: 10px; margin-left: 5vw;
+          align-items: center;">
+            Forget the old rules. You have the best place to connect, innovate and protect your IP
+        </h1>
+
+    </div>
+
+
+
+    <section class="intro">
+        <div class="container">
+            <input type="text" id="searchInput" placeholder="Try 'Ask anything about your Ip to chatgpt'">
+            <button id="searchButton">Search</button>
+            <div id="searchResults"></div>
+        </div>
+    </section>
+
+    <section class="protect">
+        <div class="container">
+            <h2>Popular Services</h2>
+            <div class="slider">
+                <div class="slider-content" id="slider-content">
+                    <div class="service">
+                        <img src="temp.png" alt="Service 1">
+                        <p>Design Registration</p>
+                    </div>
+                    <div class="service">
+                        <img src="temp.png" alt="Service 2">
+                        <p>Patent Registration</p>
+                    </div>
+                    <div class="service">
+                        <img src="temp.png" alt="Service 3">
+                        <p>Trademark Registration</p>
+                    </div>
+                    <div class="service">
+                        <img src="temp.png" alt="Service 4">
+                        <p>IP CELL Establishment</p>
+                    </div>
+                    <div class="service">
+                        <img src="temp.png" alt="Service 5">
+                        <p>Copyright Registration</p>
+                    </div>
+                    <div class="service">
+                        <img src="temp.png" alt="Service 6">
+                        <p>IPR Seminars and Workshop</p>
+                    </div>
+                    <div class="service">
+                        <img src="temp.png" alt="Service 7">
+                        <p>Intellectual Property Bank</p>
+                    </div>
+                    <div class="service">
+                        <img src="temp.png" alt="Service 8">
+                        <p>Virtual Research and Development</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section  starts  -->
+    <!-- <section class="connect">
+        <div class="container">
+            <h2 class="curly-font">Let's Connect Free</h2>
+            <div class="columns">
+                <div class="column">
+                    <h3>Customers</h3>
+                    <ul>
+                        <li>Corporations and MNCs</li>
+                        <li>Patent Attorneys</li>
+                        <li>Startups and Small Businesses</li>
+                        <li>University Technology Departments</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>IP Services</h3>
+                    <ul>
+                        <li>Patent Creation</li>
+                        <li>Patent Search and Analytics</li>
+                        <li>IP Protection</li>
+                        <li>Patent Strategy</li>
+                        <li>Explore All IP Services</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Innovation Experts</h3>
+                    <ul>
+                        <li>Researcher</li>
+                        <li>Industry Expert</li>
+                        <li>Innovators</li>
+                        <li>Consultant</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="connect">
+        <div class="container">
+            <h2 class="curly-font">Let's Connect Free</h2>
+            <div class="columns">
+                <div class="column">
+                    <h3>Customers</h3>
+                    <ul>
+                        <li><a href="#corporations">Corporations and MNCs</a></li>
+                        <li><a href="#patent-attorneys">Patent Attorneys</a></li>
+                        <li><a href="#startups">Startups and Small Businesses</a></li>
+                        <li><a href="#university-tech">University Technology Departments</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>IP Services</h3>
+                    <ul>
+                        <li><a href="#patent-creation">Patent Creation</a></li>
+                        <li><a href="#patent-search">Patent Search and Analytics</a></li>
+                        <li><a href="#ip-protection">IP Protection</a></li>
+                        <li><a href="#patent-strategy">Patent Strategy</a></li>
+                        <li><a href="#all-ip-services">Explore All IP Services</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Innovation Experts</h3>
+                    <ul>
+                        <li><a href="#researcher">Researcher</a></li>
+                        <li><a href="#industry-expert">Industry Expert</a></li>
+                        <li><a href="#innovators">Innovators</a></li>
+                        <li><a href="#consultant">Consultant</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SEctions connect ends here  -->
+
+
+
+    <!-- <section class="benefits">
+        <div class="container">
+            <div class="benefit">
+                <h3>Stick to your budget</h3>
+                <p>Find the right service for every price point. Just service-based pricing.</p>
+            </div>
+            <div class="benefit">
+                <h3>Get quality work done</h3>
+                <p>Connect with Experts and get your work done properly.</p>
+            </div>
+            <div class="benefit">
+                <h3>Count on 24/7 support</h3>
+                <p>Support team is available to help anytime, anywhere.</p>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- <footer>
+        <div class="container">
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Graphics & Design</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press & News</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <!-- <div class="link-group">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Graphics & Design</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Writing & Translation</a></li>
+                        <li><a href="#">Video & Animation</a></li>
+                    </ul>
+                </div> -->
+                <div class="link-group">
+                    <h4>About</h4>
+                    <ul>
+                        <!-- <li><a href="#">Careers</a></li> -->
+                        <li><a href="#">Press & News</a></li>
+                        <li><a target="_blank" href="https://www.uspto.gov/patents/basics">More about Patent</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+1234567890"><i class="fas fa-phone"></i> +1 (234) 567-890</a></li>
+                        <li><a href="https://wa.me/1234567890" target="_blank"><i class="fab fa-whatsapp"></i>
+                                WhatsApp</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Follow Us</h4>
+                    <ul class="social-links">
+                        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                        </li>
+                        <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 electrogati. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Backend/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#searchButton').click(function () {
+                const query = $('#searchInput').val().trim();
+                if (query !== '') {
+                    axios.post('http://localhost:3000/api/chatgpt', { query: query })
+                        .then(function (response) {
+                            displayResults(response.data);
+                        })
+                        .catch(function (error) {
+                            console.error('Error:', error);
+                        });
+                }
+            });
+
+            function displayResults(results) {
+                const $resultsContainer = $('#searchResults');
+                $resultsContainer.empty();
+                if (results.data && results.data.length > 0) {
+                    results.data.forEach(result => {
+                        $resultsContainer.append(`<p>${result}</p>`);
+                    });
+                } else {
+                    $resultsContainer.append('<p>No results found</p>');
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+/* General Footer Styles */
+footer {
+  /* background: url("https://example.com/footer-background.jpg") no-repeat center
+    center/cover; Add a background image */
+  color: #f9f9f9; /* Light grey color for text */
+  padding: 50px 0; /* Padding for space */
+}
+
+footer .container {
+  max-width: 1200px; /* Center the content with max-width */
+  margin: 0 auto; /* Center align the container */
+  padding: 0 20px; /* Padding for responsiveness */
+}
+
+footer .footer-links {
+  display: flex; /* Use flex for layout */
+  justify-content: space-between; /* Space out the columns */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+footer .link-group {
+  width: 22%; /* Set width of each group */
+  margin-bottom: 20px; /* Margin at the bottom for spacing */
+}
+
+footer .link-group h4 {
+  font-size: 18px; /* Font size for the headings */
+  margin-bottom: 15px; /* Space below the headings */
+  color: #1dbf73; /* Green color for headings */
+  border-bottom: 2px solid #1dbf73; /* Underline the heading */
+  padding-bottom: 5px; /* Padding below the heading */
+}
+
+footer .link-group ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+footer .link-group ul li {
+  margin-bottom: 10px; /* Space below each list item */
+}
+
+footer .link-group ul li a {
+  color: #f9f9f9; /* Light grey color for text */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+footer .link-group ul li a:hover {
+  color: #1dbf73; /* Green on hover */
+}
+
+footer .social-links li {
+  display: inline-block; /* Display inline for social icons */
+  margin-right: 15px; /* Space between icons */
+}
+
+footer .social-links li a {
+  display: flex; /* Flex for icon and text alignment */
+  align-items: center; /* Center align icon and text */
+  color: #f9f9f9; /* Light grey color for text */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+footer .social-links li a:hover {
+  color: #1dbf73; /* Green on hover */
+}
+
+footer .social-links li a i {
+  font-size: 18px; /* Icon size */
+  margin-right: 8px; /* Space between icon and text */
+}
+
+footer .footer-bottom {
+  text-align: center; /* Center align the bottom text */
+  margin-top: 30px; /* Space above the bottom text */
+  font-size: 14px; /* Smaller font size */
+  color: #ddd; /* Light grey color */
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* Subtle top border */
+  padding-top: 20px; /* Padding at the top */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  footer .link-group {
+    width: 45%; /* Reduce width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  footer .link-group {
+    width: 100%; /* Full width on very small screens */
+    text-align: center; /* Center align text */
+  }
+
+  footer .social-links li {
+    margin-right: 10px; /* Reduce space between icons */
+  }
+}

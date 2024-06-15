@@ -1,0 +1,99 @@
+/* .slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider .service {
+    min-width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.slider .service img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slider .service p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #404145;
+}
+
+.slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.slider-btn.left {
+    left: 10px;
+}
+
+.slider-btn.right {
+    right: 10px;
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px; /* Add padding to the entire block */
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+
+.slider-content {
+  display: flex;
+  flex-wrap: wrap;
+  transition: transform 0.5s ease;
+  margin: -10px; /* Negative margin to counteract the padding */
+}
+
+.service {
+  width: calc(25% - 20px); /* Four services in one row */
+  margin: 10px; /* Apply margin to each service */
+  text-align: center;
+}
+
+.service img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .service {
+    width: calc(50% - 20px); /* Two services in one row on smaller screens */
+  }
+}
